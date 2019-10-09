@@ -1,11 +1,13 @@
 import pandas as pd
-diabetes = pd.read_csv('diabetes.csv')
 from sklearn.model_selection import train_test_split
-X_train, X_test, Y_train, Y_test = train_test_split(diabetes.loc[:, diabetes.columns != 'Outcome'], diabetes['Outcome'], stratify=diabetes['Outcome'], random_state=66)
 from sklearn.neighbors import KNeighborsClassifier
-
 from sklearn.externals.joblib import dump
 from sklearn.externals.joblib import load
+
+diabetes = pd.read_csv('diabetes.csv')
+
+X_train, X_test, Y_train, Y_test = train_test_split(diabetes.loc[:, diabetes.columns != 'Outcome'], diabetes['Outcome'], stratify=diabetes['Outcome'], random_state=66)
+
 
 model = KNeighborsClassifier(n_neighbors=9)
 model.fit(X_train, Y_train)
