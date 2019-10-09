@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+        <title>Diabetes-Prediction-Android</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        
+        
+    </head>
+    <body>
+        <h1 id="diabetes-prediction-android">Diabetes-Prediction-Android</h1>
+<p>An android app with a python backend to do diabetes prediction</p>
+<h2 id="idea">Idea</h2>
+<p>The android app uses a python backend to do the prediction based on an aggregation of models. The results and data are written to a database.
+The app connects to a server through a URL.
+A base request handler handles the request here, through a socket. Then, it calls a Classification function.
+The results of the classification function are sent to the android app via callback function. Then, the results are written to the database with a user identifier.</p>
+<h2 id="classification-function">Classification function</h2>
+<p>The function returns the aggregate result of several models, whose results are summarized as text and returned.</p>
+<h2 id="callback-function">Callback function</h2>
+<p>The callback function returns to the app first a response of 200. If there is no result then a 400 is returned. This is followed by a string containing the results.</p>
+<h3 id="400">400</h3>
+<p>The app displays an error and handles appropriately.</p>
+<h3 id="200">200</h3>
+<p>The app receives the result and displays it.</p>
+<h2 id="the-app">The app</h2>
+<p>There is a splash screen at first. Then the app has a login/registration id page, along with server address. This is used to login.
+The app then stores the data from the user. It sends the data to the server. It displays a result.</p>
+<h3 id="improvements">Improvements</h3>
+<p>use flask instead of the base request handler: Search for 'simple flask app' in google.<br>
+Attach a weight tracker to the app.<br>
+Display list of improvements in health the user can make.</p>
+<h2 id="list-of-to-dos">List of To-dos</h2>
+<ul>
+<li>
+<h3 id="train-the-models-and-save-them">Train the models and save them</h3>
+<ol>
+<li>Train the models and save them as files.</li>
+<li>Load and test them for predictions.</li>
+<li>Create a class that classifies input data.</li>
+<li>Summarize the aggregate result of several models as text in the class.</li>
+<li>Return the text.</li>
+<li>Test it with stubs.</li>
+</ol>
+</li>
+<li>
+<h3 id="create-the-app-with-stubs">Create the app with stubs</h3>
+<ol>
+<li>Create a nav drawer page as the main page.</li>
+<li>Create the splash screen and test it with stubs.</li>
+<li>Create a login and registration page and test it with stubs.</li>
+<li>Create a form page for user data input</li>
+<li>Create a result page and test it with stubs.</li>
+</ol>
+</li>
+<li>
+<h3 id="create-the-webs-server-with-stubs">Create the webs server with stubs</h3>
+<ol>
+<li>Create a flask app. If that doesn't work, create a simple HTTP base handler server.</li>
+<li>Set it to handle some requests.</li>
+<li>Test the requests with stubs.</li>
+<li>Set it to return responses.</li>
+<li>Test the responses with stubs.</li>
+<li>Create the Classification function.</li>
+<li>Attach it to the Classification function.</li>
+<li>Test requests and responses with stubs.</li>
+</ol>
+</li>
+<li>
+<h3 id="attach-the-server-to-the-app">Attach the server to the app</h3>
+<ol>
+<li>Attach the server to the app.</li>
+<li>Test for sample input data.</li>
+<li>Remove bugs.</li>
+<li>Publish as Alpha version.</li>
+</ol>
+</li>
+<li>
+<h3 id="test-the-app">Test the app</h3>
+<ol>
+<li>Test it for a wide range of input data.</li>
+<li>Find its limitations.</li>
+<li>Document it's expected input and output.</li>
+</ol>
+</li>
+<li>
+<h3 id="create-the-documentation">Create the documentation</h3>
+<ol>
+<li>Create the project report.
+<ol>
+<li>Use <a href="http://README.md">README.md</a> as a reference to create the report introduction and methodology.</li>
+<li>Display statistics and figures about the data.</li>
+<li>Show mockup figures.</li>
+<li>Display expected results for sample inputs.</li>
+<li>Talk about future imporvements.</li>
+<li>Conclusion</li>
+</ol>
+</li>
+<li>Create the project PowerPoint.
+<ol>
+<li>Turn the report into a PPT.</li>
+<li>Divide roles of speaking.</li>
+</ol>
+</li>
+<li>Create a paper on the software.</li>
+</ol>
+</li>
+</ul>
+
+    </body>
+    </html>
