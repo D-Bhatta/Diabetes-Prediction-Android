@@ -40,55 +40,55 @@ Display list of improvements in health the user can make.
 
 - ### Train the models and save them
 
-  1. Train the models and save them as files.
-  2. Load and test them for predictions.
-  3. Create a class that classifies input data.
-  4. Summarize the aggregate result of several models as text in the class.
-  5. Return the text.
-  6. Test it with stubs.
+  1. [x] Train the models and save them as files.
+  2. [ ] Load and test them for predictions.
+  3. [ ] Create a class that classifies input data.
+  4. [ ] Summarize the aggregate result of several models as text in the class.
+  5. [ ] Return the text.
+  6. [ ] Test it with stubs.
 
 - ### Create the app with stubs
   
-  1. Create a nav drawer page as the main page.
-  2. Create the splash screen and test it with stubs.
-  3. Create a login and registration page and test it with stubs.
-  4. Create a form page for user data input
-  5. Create a result page and test it with stubs.
+  1. [ ] Create a nav drawer page as the main page.
+  2. [ ] Create the splash screen and test it with stubs.
+  3. [ ] Create a login and registration page and test it with stubs.
+  4. [ ] Create a form page for user data input
+  5. [ ] Create a result page and test it with stubs.
 
 - ### Create the webs server with stubs
 
-  1. Create a flask app. If that doesn't work, create a simple HTTP base handler server.
-  2. Set it to handle some requests.
-  3. Test the requests with stubs.
-  4. Set it to return responses.
-  5. Test the responses with stubs.
-  6. Create the Classification function.
-  7. Attach it to the Classification function.
-  8. Test requests and responses with stubs.
+  1. [ ] Create a flask app. If that doesn't work, create a simple HTTP base handler server.
+  2. [ ] Set it to handle some requests.
+  3. [ ] Test the requests with stubs.
+  4. [ ] Set it to return responses.
+  5. [ ] Test the responses with stubs.
+  6. [ ] Create the Classification function.
+  7. [ ] Attach it to the Classification function.
+  8. [ ] Test requests and responses with stubs.
 
 - ### Attach the server to the app
   
-  1. Attach the server to the app.
-  2. Test for sample input data.
-  3. Remove bugs.
-  4. Publish as Alpha version.
+  1. [ ] Attach the server to the app.
+  2. [ ] Test for sample input data.
+  3. [ ] Remove bugs.
+  4. [ ] Publish as Alpha version.
 
 - ### Test the app
   
-  1. Test it for a wide range of input data.
-  2. Find its limitations.
-  3. Document it's expected input and output.
+  1. [ ] Test it for a wide range of input data.
+  2. [ ] Find its limitations.
+  3. [ ] Document it's expected input and output.
 
 - ### Create the documentation
 
-  1. Create the project report.
-     1. Use README.md as a reference to create the report introduction and methodology.
-     2. Display statistics and figures about the data.
-     3. Show mockup figures.
-     4. Display expected results for sample inputs.
-     5. Talk about future imporvements.
-     6. Conclusion
-  2. Create the project PowerPoint.
-     1. Turn the report into a PPT.
-     2. Divide roles of speaking.
-  3. Create a paper on the software.
+  1. [ ] Create the project report.
+     1. [ ] Use README.md as a reference to create the report introduction and methodology.
+     2. [ ] Display statistics and figures about the data.
+     3. [ ] Show mockup figures.
+     4. [ ] Display expected results for sample inputs.
+     5. [ ] Talk about future imporvements.
+     6. [ ] Conclusion
+  2. [ ] Create the project PowerPoint.
+     1. [ ] Turn the report into a PPT.
+     2. [ ] Divide roles of speaking.
+  3. [ ] Create a paper on the software.
