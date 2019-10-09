@@ -1,11 +1,13 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
 
 diabetes = pd.read_csv('diabetes.csv')
-from sklearn.model_selection import train_test_split
+
 X_train, X_test, y_train, y_test = train_test_split(diabetes.loc[:, diabetes.columns != 'Outcome'], diabetes['Outcome'], stratify=diabetes['Outcome'], random_state=66)
-from sklearn.neighbors import KNeighborsClassifier
+
 training_accuracy = []
 test_accuracy = []
 # try n_neighbors from 1 to 10
