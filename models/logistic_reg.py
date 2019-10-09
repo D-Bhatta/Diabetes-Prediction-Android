@@ -1,6 +1,5 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.neighbors import KNeighborsClassifier
 import matplotlib.pyplot as plt
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
