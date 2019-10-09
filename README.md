@@ -82,5 +82,13 @@ Display list of improvements in health the user can make.
 - ### Create the documentation
 
   1. Create the project report.
+     1. Use README.md as a reference to create the report introduction and methodology.
+     2. Display statistics and figures about the data.
+     3. Show mockup figures.
+     4. Display expected results for sample inputs.
+     5. Talk about future imporvements.
+     6. Conclusion
   2. Create the project PowerPoint.
+     1. Turn the report into a PPT.
+     2. Divide roles of speaking.
   3. Create a paper on the software.
