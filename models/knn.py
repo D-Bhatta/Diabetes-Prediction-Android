@@ -3,6 +3,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+warnings.simplefilter(action='ignore', category= DeprecationWarning)
 
 diabetes = pd.read_csv('diabetes.csv')
 

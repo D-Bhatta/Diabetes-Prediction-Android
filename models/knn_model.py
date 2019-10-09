@@ -21,7 +21,7 @@ dump(model, filename)
 # some time later...
 # load the model from disk
 loaded_model = load(filename)
-print('Accuracy of K-NN classifier on test set: {:.2f}'.format(model.score(X_test, Y_test)))
+print('Accuracy of K-NN classifier on test set: {:.2f}'.format(loaded_model.score(X_test, Y_test)))
 
 
 '''Accuracy of K-NN classifier on training set: 0.79
