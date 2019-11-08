@@ -13,7 +13,6 @@ class Classifier(object):
         self.negative_probability = 0.00
     def model_predictions(self):
         '''Imports models, stores model predictions'''
-        import models
         # load a model
         # predict a data
         # store the predictions
