@@ -43,8 +43,8 @@ Display list of improvements in health the user can make.
   1. [x] Train the models and save them as files.
   2. [ ] Load and test them for predictions.
   3. [ ] Create a class that classifies input data.
-  4. [ ] Summarize the aggregate result of several models as text in the class.
-  5. [ ] Return the text.
+  4. [ ] Summarize the aggregate result of several models as text in the class and analyse accuracy.
+  5. [ ] Return the accuracy and the predictions.
   6. [ ] Test it with stubs.
 
 - ### Create the app with stubs
