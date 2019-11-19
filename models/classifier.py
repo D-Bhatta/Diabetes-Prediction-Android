@@ -65,3 +65,10 @@ class Classifier(object):
             self.prediction = "Diabetes detectecion is inconclusive"
             # construct accuracy string
             self.accuracy = "Accuracy of prediction is " + str(self.positive_probability)
+    def classifier_classify(self):
+        '''driver function to classify the data. it calls the methods defined in the class above it and returns 2 values: prediction and accuracy'''
+        self.model_predictions()
+        self.analyse_accuracy()
+        self.predict_diabetes()
+        accuracy, prediction = self.accuracy, self.prediction
+        return accuracy, prediction
