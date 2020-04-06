@@ -21,7 +21,6 @@ class Classifier(object):
         # load a model
         for i in range(len(self.models)):
             filename = self.models[i][0]
-            print(filename)
             # predict a data
             loaded_model = load(filename)
             model_prediction = loaded_model.predict(self.data) 
@@ -78,7 +77,3 @@ class Classifier(object):
         self.accuracy = "Accuracy of prediction is 80%"
         accuracy, prediction = self.accuracy, self.prediction
         return accuracy, prediction
-
-cl = Classifier((1,85,66,29,0,26.6,0.351,31))
-cl.model_predictions()
-print(cl.predictions)
