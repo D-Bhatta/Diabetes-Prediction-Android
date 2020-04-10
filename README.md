@@ -57,14 +57,14 @@ Display list of improvements in health the user can make.
 
 - ### Create the webs server with stubs
 
-  1. [ ] Create a flask app. If that doesn't work, create a simple HTTP base handler server.
-  2. [ ] Set it to handle some requests.
-  3. [ ] Test the requests with stubs.
-  4. [ ] Set it to return responses.
-  5. [ ] Test the responses with stubs.
-  6. [ ] Create the Classification function.
-  7. [ ] Attach it to the Classification function.
-  8. [ ] Test requests and responses with stubs.
+  1. [x] Create a flask app. If that doesn't work, create a simple HTTP base handler server.
+  2. [x] Set it to handle some requests.
+  3. [x] Test the requests with stubs.
+  4. [x] Set it to return responses.
+  5. [x] Test the responses with stubs.
+  6. [x] Create the Classification function.
+  7. [x] Attach it to the Classification function.
+  8. [x] Test requests and responses with stubs.
 
 - ### Attach the server to the app
   

@@ -20,7 +20,7 @@ class Classifier(object):
         from joblib import dump
         # load a model
         for i in range(len(self.models)):
-            filename = self.models[i][0]
+            filename = 'models/'+self.models[i][0]
             # predict a data
             loaded_model = load(filename)
             model_prediction = loaded_model.predict(self.data) 
