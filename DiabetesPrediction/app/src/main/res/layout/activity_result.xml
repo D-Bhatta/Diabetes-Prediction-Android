@@ -11,10 +11,20 @@
                 android:layout_centerInParent="true"/>
 
         <TextView android:id="@+id/accuracy"
-                  android:layout_below="@+id/result"
+                  android:layout_below="@id/result"
                   android:layout_width="wrap_content" android:layout_height="wrap_content"
                 android:textSize="24sp" android:textAlignment="center"
                 android:text="@string/accuracy" android:layout_centerInParent="true"/>
+        <TextView android:id="@+id/diabetes_type"
+            android:layout_below="@id/accuracy"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="24sp" android:textAlignment="center"
+            android:text="@string/diabetes_type" android:layout_centerInParent="true"/>
+        <TextView android:id="@+id/diabetes_type_accuracy"
+                android:layout_below="@id/diabetes_type"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="24sp" android:textAlignment="center"
+                android:text="@string/diabetes_type_accuracy" android:layout_centerInParent="true"/>
     </RelativeLayout>
 
 

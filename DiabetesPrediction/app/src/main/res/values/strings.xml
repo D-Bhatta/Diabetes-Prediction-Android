@@ -13,10 +13,12 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="result">Diabetes detectecion is positive</string>
-    <string name="accuracy">Accuracy of prediction is 80%</string>
+    <string name="accuracy">Accuracy of prediction is 80.333276767677676%</string>
     <string name="result2">Diabetes detectecion is negative</string>
     <string name="prompt_plasma">Plasma</string>
     <string name="prompt_fast">Fasting</string>
     <string name="prompt_test">Test</string>
     <string name="prompt_pedi">Pedi</string>
+    <string name="diabetes_type">Type of Diabetes: Type I</string>
+    <string name="diabetes_type_accuracy">Accuracy: 77.033333333666</string>
 </resources>
